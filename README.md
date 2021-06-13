@@ -7,8 +7,6 @@
 
 ## Kafka
 
-## 
-
 [Kafka 面试题](https://github.com/1eeBoom/Java-Notes/blob/main/Kafka%20%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 ## 计算机网络
