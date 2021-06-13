@@ -34,3 +34,8 @@ BinLog 日志是 MySQL 服务层提供日志
 redolog 只是完成了 prepare
 
 但是写 binlog 后才会提交
+
+## 3.两段式提交
+
+两段式提交，就是我们先把这次更新写入到redolog中，并设redolog为prepare状态，然后再写入binlog,写完binlog之后再提交事务，并设redolog为commit状态。也就是把relolog拆成了prepare和commit两段！
+
